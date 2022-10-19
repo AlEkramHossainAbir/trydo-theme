@@ -1,4 +1,5 @@
 import logo from './../Assets/Images/logo.png'
+import Home from './Views/Home'
 const Header = () =>{
     return(
    <div className="header">
@@ -13,9 +14,10 @@ const Header = () =>{
             <span>Blog</span>
         </div>
         <div className="contact">
-            <button>Contact</button>
+            <button className='contact-btn'>Contact</button>
         </div>
     </div>
+    <Home />
    </div>
     )
 }

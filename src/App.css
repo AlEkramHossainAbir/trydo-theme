@@ -6,10 +6,39 @@
 .menu{
     color: white;
     flex: 1;
+    padding: 30px;
+}
+.menu span{
+    padding: 20px;
 }
 .nav{
     display: flex;
+    padding: 20px;
+
 }
 .logo{
     flex: 1 ;
+}
+.contact{
+    float: right;
+    padding: 20px 50px;
+}
+.contact-btn{
+    border: 1px solid gold;
+    padding: 10px 20px;
+    background-color: black;
+    color: #dc3545!important;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.home{
+  
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(#f81f01,#ee076e);
+    background-clip: text;
+}
+
+.working-sector{
+    background-color: white;
 }
