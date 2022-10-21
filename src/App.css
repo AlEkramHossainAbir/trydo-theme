@@ -39,6 +39,18 @@
     background-clip: text;
 }
 
-.working-sector{
-    background-color: white;
+.about{
+    background-color: #201F1F;
+    display: flex;
+    padding: 50px 100px;
+}
+.about_image{
+    margin-right: 50px;
+}
+.services{
+    background-color: black;
+}
+.about h1,p{
+    color: white;
+
 }

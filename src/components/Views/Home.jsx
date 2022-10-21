@@ -4,11 +4,11 @@ import marketingLogo from './../../Assets/Images/marketing.png'
 const Home = () => {
     return (
         <div className="home">
-            <div className="banner"> <h1>A DIGITAL <br /> AGENCY</h1></div>
+            <div className="banner"> <h1>A DIGITAL <br /> AGENCY </h1></div>
             <div className="working-sector">
                 <div className="business-strategy">
                     <img src={businessLogo} alt="business Logo" />
-                    <h1>Business Logo</h1>
+                    <h1 className='test'>Business Logo</h1>
                     <p>Lorem ipsum</p>
 
                 </div>
