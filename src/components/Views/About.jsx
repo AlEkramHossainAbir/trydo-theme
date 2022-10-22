@@ -1,3 +1,4 @@
+import React from 'react'
 import aboutImage from './../../Assets/Images/about.jpg'
 const About = () => {
     return (

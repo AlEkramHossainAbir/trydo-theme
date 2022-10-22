@@ -1,3 +1,5 @@
+import React from 'react'
+
 import partner1 from './../../../Assets/Images/partner-1.png'
 import partner2 from './../../../Assets/Images/partner-2.png'
 import partner3 from './../../../Assets/Images/partner-3.png'

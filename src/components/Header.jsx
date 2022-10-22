@@ -1,3 +1,5 @@
+import React from 'react'
+// import { Routes, Route, Link } from   "react-router-dom";
 import logo from './../Assets/Images/logo.png'
 import Home from './Views/Home'
 const Header = () =>{
@@ -8,6 +10,11 @@ const Header = () =>{
             <img src={logo} alt="logo" />
         </div>
         <div className="menu">
+        {/* <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/about">About</Link>
+        <Link to="/about">About</Link>
+        <Link to="/about">About</Link> */}
             <span>Home</span>
             <span>Service</span>
             <span>About</span>

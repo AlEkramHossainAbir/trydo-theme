@@ -1,3 +1,4 @@
+import React from 'react'
 import websiteLogo from './../../../Assets/Images/website.png'
 const ServiceCard = ({name,message}) =>{
     return(

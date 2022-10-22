@@ -1,3 +1,4 @@
+import React from 'react'
 import businessLogo from './../../Assets/Images/business.png'
 import websiteLogo from './../../Assets/Images/website.png'
 import marketingLogo from './../../Assets/Images/marketing.png'

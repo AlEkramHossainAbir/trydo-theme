@@ -1,3 +1,4 @@
+import React from 'react'
 import bigLogo from './../Assets/Images/big-logo.png'
 const Footer = () =>{
     return(
