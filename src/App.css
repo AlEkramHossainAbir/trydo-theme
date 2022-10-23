@@ -1,23 +1,36 @@
-
-.header{
-    background-color: black ;
-    height: 90vh;
+*{
+    padding: 0;
+    margin: 0;
 }
-.menu{
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home{
+    background-color: black ;
+    height: 70vh;
+    
+}
+.link{
+    text-decoration: none;
     color: white;
-    flex: 1;
-    padding: 30px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
 }
 .menu span{
     padding: 20px;
 }
-.nav{
+.navbar{
+    background-color: black;
     display: flex;
     padding: 20px;
 
 }
 .logo{
-    flex: 1 ;
+    margin: 20PX;
 }
 .contact{
     float: right;
@@ -32,11 +45,20 @@
     font-weight: 700;
     border-radius: 5px;
 }
-.home{
+.banner{
   
     -webkit-text-fill-color: transparent;
     background: -webkit-linear-gradient(#f81f01,#ee076e);
-    background-clip: text;
+    -webkit-background-clip: text;
+}
+h1{
+    color: white;
+}
+p{
+    color: #6C757D;
+}
+.working-sector{
+    display: flex;
 }
 
 .about{
@@ -50,7 +72,6 @@
 .services{
     background-color: black;
 }
-.about h1,p{
-    color: white;
-
+.fun-fact{
+    background-color: #201F1F;
 }

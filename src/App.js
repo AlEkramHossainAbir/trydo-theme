@@ -1,22 +1,24 @@
 import React from 'react';
 import './App.css';
-import Footer from './components/Footer';
-import Header from './components/Header';
 import About from './components/Views/About';
-import FunFact from './components/Views/FunFact';
-import PartnerImages from './components/Views/partner/PartnerImages';
-import Services from './components/Views/services/Services';
+import {
+  Route,
+  BrowserRouter,
+  Routes,
+} from "react-router-dom";
+import Homepage from './components/Views/Homepage';
+
 
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <About />
-      <Services />
-      <FunFact />
-      <PartnerImages />
-      <Footer />
+      <BrowserRouter>
+      <Routes>
+        <Route exact path="/" element={<Homepage />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+      </BrowserRouter>
     </div>
   );
 }

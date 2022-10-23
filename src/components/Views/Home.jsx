@@ -9,19 +9,19 @@ const Home = () => {
             <div className="working-sector">
                 <div className="business-strategy">
                     <img src={businessLogo} alt="business Logo" />
-                    <h1 className='test'>Business Logo</h1>
-                    <p>Lorem ipsum</p>
+                    <h1>Business Strategy</h1>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
 
                 </div>
                 <div className="web-dev">
                     <img src={websiteLogo} alt="website Logo" />
-                    <h1>Business Logo</h1>
-                    <p>Lorem ipsum</p>
+                    <h1>Website Development</h1>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
                 </div>
                 <div className="marketing">
                     <img src={marketingLogo} alt="business Logo" />
-                    <h1>Business Logo</h1>
-                    <p>Lorem ipsum</p>
+                    <h1>Marketing and Reporting</h1>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
                 </div>
             </div>
 
