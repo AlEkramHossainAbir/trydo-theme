@@ -1,9 +1,9 @@
 import React from 'react'
-import websiteLogo from './../../../Assets/Images/website.png'
+import businessLogo from './../../../Assets/Images/business.png'
 const ServiceCard = ({name,message}) =>{
     return(
         <div className="service-card-view">
-          <img src={websiteLogo} alt="website" />
+          <img src={businessLogo} alt="website" />
           <h1>{name}</h1>
           <p>{message}</p>
         </div>

@@ -3,7 +3,8 @@ import { Link } from   "react-router-dom";
 import logo from './../Assets/Images/logo.png'
 const Navbar = () => {
     return (
-        <div className="navbar">
+         <div className="navbar-container">
+            <div className="navbar">
             <div className="logo">
                 <img src={logo} alt="logo" />
             </div>
@@ -17,7 +18,7 @@ const Navbar = () => {
                 <button className='contact-btn'>Contact</button>
             </div>
         </div>
-
+         </div>
     )
 }
 export default Navbar

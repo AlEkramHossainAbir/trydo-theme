@@ -1,77 +1,186 @@
-*{
+* {
     padding: 0;
     margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.App{
+
+.App {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
-.home{
-    background-color: black ;
-    height: 70vh;
-    
-}
-.link{
+
+.link {
     text-decoration: none;
     color: white;
     padding: 20px;
     align-items: center;
     justify-content: center;
 }
-.menu span{
+
+.menu span {
     padding: 20px;
 }
-.navbar{
+
+.navbar-container,
+.service-container {
+    width: 100%;
     background-color: black;
+}
+
+
+.navbar,
+.services {
     display: flex;
-    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    width: 1320px;
+    margin: 0 auto;
 
 }
-.logo{
+
+.home-container {
+    width: 100%;
+    background-color: black;
+}
+
+.home {
+    height: 70vh;
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.banner-header-text {
+    font-size: 70px;
+    font-weight: 800;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(#f81f01, #ee076e);
+    -webkit-background-clip: text;
+    padding: 20PX;
+}
+
+.logo {
     margin: 20PX;
 }
-.contact{
+
+.contact {
     float: right;
     padding: 20px 50px;
 }
-.contact-btn{
+
+.contact-btn {
     border: 1px solid gold;
     padding: 10px 20px;
     background-color: black;
-    color: #dc3545!important;
+    color: #dc3545 !important;
     font-size: 16px;
     font-weight: 700;
     border-radius: 5px;
 }
-.banner{
-  
-    -webkit-text-fill-color: transparent;
-    background: -webkit-linear-gradient(#f81f01,#ee076e);
-    -webkit-background-clip: text;
+.contact-btn:hover{
+    background-color: #EBB206;
 }
-h1{
+h1 {
     color: white;
 }
-p{
+
+p {
     color: #6C757D;
 }
-.working-sector{
+
+.working-sector {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
-.about{
+.working-sector>div {
+    padding: 20px;
+}
+
+.working-sector>div>h1 {
+    font-size: 28px;
+    font-weight: 600;
+    padding: 20px 0;
+}
+
+.details-para {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.banner-container,
+.fun-fact-container {
+    width: 100%;
+    background-color: #201F1F;
+}
+
+.about {
     background-color: #201F1F;
     display: flex;
     padding: 50px 100px;
 }
-.about_image{
+
+.about_image {
     margin-right: 50px;
 }
-.services{
+
+.services {
     background-color: black;
 }
-.fun-fact{
-    background-color: #201F1F;
+.partner-images-container{
+    width: 100%;
+    background-color: white;
+}
+.fun-fact,
+.partner-images {
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.message-container>div{
+    padding: 70px 20px 20px 10px;
+}
+.who-are-container{
+    display: flex;
+}
+.about-heading{
+    font-size: 60px;
+    font-weight: 700;
+}
+.about-paragraph,
+.who-we-are-paragaraph{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.who-we-are-heading{
+    font-size: 40px;
+    font-weight: 500;
+}
+.service-card-container{
+    display: flex;
+}
+.request-btn{
+    border: 1px solid  #dc3545;
+    padding: 10px 20px;
+    background-color: black;
+    color: #dc3545 !important;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.service-card-view{
+    height: 50%;
+    width: 100%;
+    border-radius: 5%;
+
+}
+.service-card-view:hover{
+    background-color: #F6191E;
 }

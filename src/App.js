@@ -11,11 +11,20 @@ import Homepage from './components/Views/Homepage';
 
 
 function App() {
+const style = {
+  backgroundColor: 'black',
+  display: 'flex',
+  justifyContent: 'space-between',
+  alignItems: 'center',
+  width:' 1320px',
+  margin:' 0 auto',
+
+}
   return (
     <div className="App">
       <BrowserRouter>
       <Routes>
-        <Route exact path="/" element={<Homepage />} />
+        <Route exact path="/" element={<Homepage style={style} />} />
         <Route path="/about" element={<About />} />
       </Routes>
       </BrowserRouter>

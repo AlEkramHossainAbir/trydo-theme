@@ -6,25 +6,16 @@ import FunFact from "./FunFact";
 import Home from "./Home";
 import PartnerImages from "./partner/PartnerImages";
 import Services from "./services/Services";
-const Homepage = () =>{
-    return(
+const Homepage = (props) => {
+    console.log(props)
+    return (
         <div className="homepage">
             <Navbar />
-            <div className="banner-container">
-                <Home />
-            </div>
-            <div className="about-container">
-                <About />
-            </div>
-            <div className="service-container">
-                <Services />
-            </div>
-            <div className="fun-fact-container">
-                <FunFact />
-            </div>
-            <div className="partner-images-container">
-                <PartnerImages />
-            </div>
+            <Home />
+            <About />
+            <Services />
+            <FunFact />
+            <PartnerImages />
             <Footer />
         </div>
     )

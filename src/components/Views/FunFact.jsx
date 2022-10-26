@@ -1,6 +1,8 @@
 import React from "react"
 const FunFact = () =>{
     return(
+      <div className="fun-fact-container">
+        
         <div className="fun-fact">
         <h1 className="fun-fact-text">Our Fun Facts</h1>
         <div className="row  text-center pb-5 container mx-auto">
@@ -32,6 +34,7 @@ const FunFact = () =>{
             </p>
           </div>
         </div>
+      </div>
       </div>
     )
 }
