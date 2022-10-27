@@ -39,7 +39,40 @@
     margin: 0 auto;
 
 }
+.services {
+    background-color: black;
+    padding-bottom: 50px;
+    height: 70vh;
+}
+.services-message{
+    width: 40%;
+    padding: 20px;
 
+}
+.services-message>h1{
+    font-size: 4rem;
+    font-weight: 900;
+    padding-bottom: 24px;
+    
+}
+.services-message>p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    padding-bottom: 24px;
+    margin-bottom: 8px;
+    
+}
+.service-card-view{
+    height: 50%;
+    width: 100%;
+    border-radius: 5%;
+    padding: 20px;
+
+}
+.service-card-view:hover{
+    background-color: #F6191E;
+}
 .home-container {
     width: 100%;
     background-color: black;
@@ -127,9 +160,7 @@ p {
     margin-right: 50px;
 }
 
-.services {
-    background-color: black;
-}
+
 .partner-images-container{
     width: 100%;
     background-color: white;
@@ -174,13 +205,4 @@ p {
     font-size: 16px;
     font-weight: 700;
     border-radius: 5px;
-}
-.service-card-view{
-    height: 50%;
-    width: 100%;
-    border-radius: 5%;
-
-}
-.service-card-view:hover{
-    background-color: #F6191E;
 }

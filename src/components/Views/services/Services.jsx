@@ -10,8 +10,6 @@ const Services = () => {
                     <p>
                         There are many variations of passages of
                         Lorem Ipsum available, but the majority
-                        have suffered alteration.There are many variations of passages of
-                        Lorem Ipsum available, but the majority
                         have suffered alteration.
                     </p>
                     <button className="request-btn">Request Custom Service</button>
