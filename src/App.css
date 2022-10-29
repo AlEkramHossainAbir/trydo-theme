@@ -87,6 +87,7 @@
 .banner-header-text {
     font-size: 70px;
     font-weight: 800;
+    line-height: 4.5rem;
     -webkit-text-fill-color: transparent;
     background: -webkit-linear-gradient(#f81f01, #ee076e);
     -webkit-background-clip: text;
@@ -149,6 +150,27 @@ p {
     width: 100%;
     background-color: #201F1F;
 }
+.fun-fact-count-container{
+    display: flex;
+    text-align: center;
+    padding-top: 40px;
+}
+.fun-fact-text{
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 15px;
+}
+.number-text{
+    color: #dc3545;
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 2rem;
+}
+.text-secondary{
+    font-size: 20px;
+    font-weight: 500;
+    width: 90%;
+}
 
 .about {
     background-color: #201F1F;
@@ -164,6 +186,9 @@ p {
 .partner-images-container{
     width: 100%;
     background-color: white;
+}
+.fun-fact{
+   padding: 30px;
 }
 .fun-fact,
 .partner-images {
