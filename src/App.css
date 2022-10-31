@@ -160,6 +160,9 @@ p {
     font-weight: 500;
     padding-top: 15px;
 }
+.fun-fact-card{
+    padding-bottom: 0px;
+}
 .number-text{
     color: #dc3545;
     font-size: 40px;
@@ -230,4 +233,37 @@ p {
     font-size: 16px;
     font-weight: 700;
     border-radius: 5px;
+}
+.partners-list-container{
+    padding: 40px;
+}
+.temp-position{
+    position: relative;
+    top: -10px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+}
+.right-footer{
+    display: flex; 
+}
+.right-footer>div{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 40px;
+}
+.footer-link{
+    text-decoration: none;
+    color: #6C757D;
+    font-size: 20px;
+}
+.font-container{
+    display: flex;
+
+}
+.symbol-style{
+    padding-right: 40px;
+    color: #6C757D;
 }

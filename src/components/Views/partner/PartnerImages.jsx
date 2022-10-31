@@ -15,7 +15,7 @@ const PartnerImages = () => {
         <div className="partner-images-container">
             <div className='partner-images'>
                 <div className='container'>
-                    <div className='partners-list container'>
+                    <div className='partners-list-container'>
                         <img src={partner1} alt='partner' className='img-fluid' />
                         <img src={partner2} alt='partner' className='img-fluid' />
                         <img src={partner3} alt='partner' className='img-fluid' />
@@ -26,7 +26,7 @@ const PartnerImages = () => {
                     </div>
                     <div className='container'>
                         <div className='container'>
-                            <div className='container second-partners-list'>
+                            <div className='partners-list-container'>
                                 <img src={partner6} alt='partner' className='img-fluid' />
                                 <img src={partner7} alt='partner' className='img-fluid' />
                                 <img src={partner8} alt='partner' className='img-fluid' />
