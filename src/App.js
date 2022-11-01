@@ -6,7 +6,12 @@ import {
   BrowserRouter,
   Routes,
 } from "react-router-dom";
-import Homepage from './components/Views/Homepage';
+import Homepage from './components/Homepage';
+import Navbar from './components/Navbar';
+import ServicePage from './components/ServicePage';
+import Aboutpage from './components/Aboutpage';
+import Blogpage from './components/Blogpage';
+import Footer from './components/Footer';
 
 
 
@@ -23,10 +28,14 @@ const style = {
   return (
     <div className="App">
       <BrowserRouter>
+      <Navbar />
       <Routes>
         <Route exact path="/" element={<Homepage style={style} />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/service" element={<ServicePage />} />
+        <Route path="/about" element={<Aboutpage />} />
+        <Route path="/blog" element={<Blogpage />} />
       </Routes>
+      <Footer />
       </BrowserRouter>
     </div>
   );

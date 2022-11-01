@@ -14,7 +14,7 @@
 .link {
     text-decoration: none;
     color: white;
-    padding: 20px;
+    padding: 0.5rem;
     align-items: center;
     justify-content: center;
 }
@@ -73,9 +73,23 @@
 .service-card-view:hover{
     background-color: #F6191E;
 }
-.home-container {
+.home-container,
+.header-container, 
+.footer-container {
     width: 100%;
     background-color: black;
+}
+.blogpage-container{
+    width: 100%;
+
+}
+.blogpage-images{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   
+}
+.blogpage-images>img{
+    padding: 3rem;
 }
 
 .home {
@@ -84,6 +98,31 @@
     margin: 0 auto;
 }
 
+.header{
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+.header-title{
+    color:#F2123D;
+    font-size: 3rem;
+    font-weight: 900;
+    padding-bottom: 2.5rem;
+}
+.self-title{
+    color: #F2123D;
+    padding: 0.5rem;
+}
+.header-nav{
+    display: flex;
+}
+.header-nav>Link{
+    text-decoration: none;
+}
 .banner-header-text {
     font-size: 70px;
     font-weight: 800;
@@ -244,7 +283,8 @@ p {
 .footer{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: black;
+    width: 1320px;
+    margin: 0 auto;
 }
 .right-footer{
     display: flex; 

@@ -10,9 +10,9 @@ const Navbar = () => {
             </div>
             <div className="menu">
                 <Link to="/" className="link">Home</Link>
-                <Link to="/about" className="link">Service</Link>
+                <Link to="/service" className="link">Service</Link>
                 <Link to="/about" className="link">About</Link>
-                <Link to="/about" className="link">Blog</Link>
+                <Link to="/blog" className="link">Blog</Link>
             </div>
             <div className="contact">
                 <button className='contact-btn'>Contact</button>
